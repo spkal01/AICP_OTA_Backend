@@ -19,9 +19,11 @@ if [ ! -e "$file" ]; then
 	exit 1
 fi
 
-version=$(cut -d '-' -f2 <<<"$filename")
-romtype=$(cut -d '-' -f4 <<<"$filename")
-target=$(cut -d '-' -f5 <<<"${filename%.*}")
+version_raw=$(cut -d '_' -f3 <<<"$filename")
+version=$(cut -d '-' -f1,2 <<<"$version_raw")
+version_number=$(cut -d '-' -f 2 <<<"$version_raw")
+romtype=$(cut -d '-' -f3 <<<"$filename")
+target=$(cut -d '_' -f2 <<<"${filename%.*}")
 
 id=$(md5sum "$file" | awk '{ print $1 }')
 size=$(stat -c %s "$file")
@@ -40,7 +42,7 @@ fi
 
 datetime=$(unzip -p "$file" META-INF/com/android/metadata | grep post-timestamp | cut -d= -f2)
 
-url=${baseurl%%/}/$version/$target/$filename
+url=${baseurl%%/}/$version_number/$target/$filename
 
 cat << EOF | tee "${target}.json"
 {
