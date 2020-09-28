@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1600940657",
-      "filename": "aicp_hotdog_q-15.0-UNOFFICIAL-20200924.zip",
-      "id": "567fb0ec35d683280ba178d58e4926fb",
+      "datetime": "1601270971",
+      "filename": "aicp_hotdog_q-15.0-UNOFFICIAL-20200928.zip",
+      "id": "64cf92e50b6520e4654adb2beb7d77d3",
       "romtype": "UNOFFICIAL",
-      "size": "980646116",
-      "url": "https://mirror.codebucket.de/claymore1297/AICP/15.0/hotdog/aicp_hotdog_q-15.0-UNOFFICIAL-20200924.zip",
+      "size": "998592641",
+      "url": "https://mirror.codebucket.de/claymore1297/AICP/15.0/hotdog/aicp_hotdog_q-15.0-UNOFFICIAL-20200928.zip",
       "version": "q-15.0"
     }
   ]
