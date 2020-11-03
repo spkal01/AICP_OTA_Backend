@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1604421766",
+      "filename": "aicp_hima_r-16.0-UNOFFICIAL-20201103.zip",
+      "id": "b2e74112feed841d2e3194a3e28923c6",
+      "romtype": "UNOFFICIAL",
+      "size": "668365619",
+      "url": "https://mirror.codebucket.de/claymore1297/AICP/16.0/hima/aicp_hima_r-16.0-UNOFFICIAL-20201103.zip",
+      "version": "r-16.0"
+    }
+  ]
+}
