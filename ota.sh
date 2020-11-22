@@ -1,6 +1,6 @@
 #!/bin/bash
 
-baseurl="https://mirror.codebucket.de/claymore1297/AICP/"
+baseurl="https://sourceforge.net/projects/semdoc-aicp/files/enchilada/"
 
 if [ "$1" == "" ]; then
 	>&2 echo "Usage: $0 <filename> [<baseurl>]"
