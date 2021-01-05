@@ -1,6 +1,6 @@
 #!/bin/bash
 
-baseurl="https://sourceforge.net/projects/semdoc-aicp/files/enchilada/"
+baseurl="http://files.spkal01.tech/Aicp/latest"
 
 if [ "$1" == "" ]; then
 	>&2 echo "Usage: $0 <filename> [<baseurl>]"
