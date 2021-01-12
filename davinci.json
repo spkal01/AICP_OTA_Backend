@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1610349769",
-      "filename": "aicp_davinci_r-16.1-UNOFFICIAL-GAPPS-20210111.zip",
-      "id": "21e9eb2a714a90ac43e5b0dec16e2f29",
+      "datetime": "1610459169",
+      "filename": "aicp_davinci_r-16.1-UNOFFICIAL-GAPPS-20210112.zip",
+      "id": "f028e55e431a26c00fe6f6c7ce7c5da8",
       "romtype": "UNOFFICIAL",
-      "size": "1766598558",
-      "url": "http://files.spkal01.tech/Aicp/latest/aicp_davinci_r-16.1-UNOFFICIAL-GAPPS-20210111.zip",
+      "size": "1751698677",
+      "url": "http://files.spkal01.tech/Aicp/latest/aicp_davinci_r-16.1-UNOFFICIAL-GAPPS-20210112.zip",
       "version": "r-16.1"
     }
   ]
