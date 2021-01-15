@@ -1,14 +1,14 @@
 {
   "response": [
     {
-      "datetime": "1610459169",
-      "filename": "aicp_davinci_r-16.1-UNOFFICIAL-GAPPS-20210112.zip",
-      "id": "f028e55e431a26c00fe6f6c7ce7c5da8",
+      "datetime": "1610725698",
+      "filename": "aicp_davinci_r-16.1-UNOFFICIAL-GAPPS-20210115.zip",
+      "id": "a20d09c5bd74077e75bd19396ef13bfb",
       "romtype": "UNOFFICIAL",
-      "size": "1751698677",
-      "url": "http://files.spkal01.tech/Aicp/latest/aicp_davinci_r-16.1-UNOFFICIAL-GAPPS-20210112.zip",
-      "version": "r-16.1"
-      "changelog_link": "http://files.spkal01.tech/Aicp/latest/Changelog.txt",
+      "size": "1742193800",
+      "url": "http://files.spkal01.tech/Aicp/latest/aicp_davinci_r-16.1-UNOFFICIAL-GAPPS-20210115.zip",
+      "version": "r-16.1",
+      "changelog_link": "http://files.spkal01.tech/Aicp/latest/Changelog.txt"
     }
   ]
 }
