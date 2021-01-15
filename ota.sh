@@ -55,7 +55,7 @@ cat << EOF | tee "${target}.json"
       "size": "$size",
       "url": "$url",
       "version": "$version",
-      "changelog_link": "http://files.spkal01.tech/Aicp/latest/Changelog.txt",
+      "changelog_link": "http://files.spkal01.tech/Aicp/latest/Changelog.txt"
     }
   ]
 }
