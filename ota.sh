@@ -42,7 +42,7 @@ fi
 
 datetime=$(unzip -p "$file" META-INF/com/android/metadata | grep post-timestamp | cut -d= -f2)
 
-url=${baseurl%%/}/$version_number/$target/$filename
+url=${baseurl%%/}/$filename
 
 cat << EOF | tee "${target}.json"
 {
@@ -54,7 +54,8 @@ cat << EOF | tee "${target}.json"
       "romtype": "$romtype",
       "size": "$size",
       "url": "$url",
-      "version": "$version"
+      "version": "$version",
+      "changelog_link": "http://files.spkal01.tech/Aicp/latest/Changelog.txt",
     }
   ]
 }
